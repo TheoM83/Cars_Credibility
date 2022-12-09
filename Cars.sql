@@ -1,5 +1,3 @@
-drop DATABASE fastapi;
-
 create DATABASE fastapi;
 
 use fastapi;
