@@ -2,8 +2,8 @@ create DATABASE fastapi;
 
 use fastapi;
 
-CREATE USER 'fast_user'@'localhost' IDENTIFIED BY 'secret_pass1234';
-GRANT ALL PRIVILEGES ON * . * TO 'fast_user'@'localhost';
+CREATE USER 'fast_user'@'%' IDENTIFIED BY 'secret_pass1234';
+GRANT ALL PRIVILEGES ON * . * TO 'fast_user'@'%';
 flush privileges;
 
 CREATE TABLE IF NOT EXISTS brand (
