@@ -18,13 +18,13 @@ insert into brand (title, street_cred) values ('Bugatti', 'Tu es le capitalisme,
 
 insert into brand (title, street_cred) values ('FIAT', 'Tu conduis la voiture de ta femme, honte sur ton âme.');
 
-insert into brand (title, street_cred) values ('Honda', 'Tu possèdes tous les attributs pour être défini comme sénile.');
+insert into brand (title, street_cred) values ('Mercedes', 'Tu possèdes tous les attributs pour être défini comme sénile.');
 
 insert into brand (title, street_cred) values ('Lotus', 'Tu es un pilote Harry.');
 
-insert into brand (title, street_cred) values ('BMW', 'Tu es un immense dégénéré qui achète du bas de gamme pour avoir le porte clé. Bravo à toi.');
+insert into brand (title, street_cred) values ('BMW', 'Tu achètes du bas de gamme pour avoir le porte clé. Bravo à toi.');
 
-insert into brand (title, street_cred) values ('Dacia', 'Tu ne portes tellement pas de considération en ta voiture que tu essuyes tes mains pleines de Mcdo dans tes sièges.');
+insert into brand (title, street_cred) values ('Dacia', 'Basé ou précarité, telle est la question');
 
 insert into brand (title, street_cred) values ('Volkswagen', 'Tu sait reconnaître l\'efficacité de l\'ingénierie allemande.');
 
