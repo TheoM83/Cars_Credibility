@@ -40,4 +40,4 @@ def read_item(brand: str, q: Union[str, None] = None):
 	cursor.execute("Select street_cred from brand where title = '{}'".format(brand))
 	for x in cursor:
         	print(x)
-	return {"item_id": x[0]}
+	return {"cred": x[0]}
