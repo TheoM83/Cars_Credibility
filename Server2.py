@@ -32,7 +32,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Usage": "/{marque} pour connaitre la street cred de ta voiture"}
+    return {"2:Usage": "/{marque} pour connaitre la street cred de ta voiture"}
 
 
 @app.get("/{brand}")
@@ -40,4 +40,4 @@ def read_item(brand: str, q: Union[str, None] = None):
 	cursor.execute("Select street_cred from brand where title = '{}'".format(brand))
 	for x in cursor:
         	print(x)
-	return {"cred": x[0]}
+	return {"2:Cred": x[0]}
