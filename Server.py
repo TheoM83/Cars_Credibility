@@ -32,7 +32,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Usage": "/{brand} in order to know the street cred of your car"}
+    return {"Usage": "/{marque} pour connaitre la street cred de ta voiture"}
 
 
 @app.get("/{brand}")
